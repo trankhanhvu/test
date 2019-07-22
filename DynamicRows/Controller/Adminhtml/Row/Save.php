@@ -41,6 +41,7 @@ class Save extends \Magento\Backend\App\Action
 
     protected function _isAllowed()
     {
+        //haha
         return $this->_authorization->isAllowed('Bss_DynamicRows::dynamic_rows');
     }
 }
